@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Black = styled.button`
+export const Black = styled.button`
   background: black;
   width: 40px;
   height: 130px;
@@ -14,7 +14,7 @@ const Black = styled.button`
   }
 `;
 
-const White = styled.button`
+export const White = styled.button`
   background: white;
   width: 60px;
   height: 200px;
